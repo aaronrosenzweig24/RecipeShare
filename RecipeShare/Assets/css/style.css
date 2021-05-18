@@ -1,0 +1,335 @@
+body {
+    background: url(wave.svg) !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+a {
+    text-decoration: none !important;
+}
+.navbar-brand {
+    font-family: 'Lobster', cursive !important;
+}
+.wrapper {
+    margin: 0 auto;
+    top: 50px;
+    position: relative;
+    padding: 0 10px;
+    width: 75%;
+    height: 300px;
+}
+.column {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #e6eaeb;
+    border-radius: 5px;
+    margin-top: 25px;
+    box-shadow: 2px 2px 2px 2px #0dcaf0;
+}
+.user_details {
+    width: 325px;
+    float: left;
+    margin-bottom: 20px;
+}
+.user_details_left-right {
+    width: 150px;
+    display: inline-block;
+    position: absolute;
+}
+.user_details img {
+    height: 125px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.main_column {
+    float: right;
+    width: 67%;
+    z-index: -1;
+    min-height: 170px;
+    margin-top: 25px;
+}
+.post_form {
+    width: 100%;
+}
+.post_form textarea {
+    width: 80%;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: 1px solid #d3d3d3;
+    font-size: 12px;
+    padding: 5px;
+}
+textarea:focus {
+    outline: 0;
+}
+.post_form input[type='submit'] {
+    width: 11%;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0dcaf0;
+    font-family: 'Lobster', cursive;
+    font-size: 90%;
+    position: absolute;
+    outline: 0;
+    margin: 0;
+}
+.post_form input[type='submit']:hover {
+    background-color: #16a8c5;
+    transition: background-color 0.5s;
+}
+.status_post {
+    width: 96%;
+    font-size: 15px;
+    padding: 0px 5px;
+    min-height: 75px;
+    cursor: pointer;
+}
+.post_profile_pic {
+    float: left;
+    margin-right: 7px;
+}
+.post_profile_pic img {
+    border-radius: 5px;
+    height: 75px;
+    width: 75px;
+}
+.post_comment {
+    background-color: white;
+}
+#comment_iframe {
+    background-color: #fff;
+    max-height: 250px;
+    width: 100%;
+    margin-top: 5px;
+}
+.comment_section {
+    padding: 0 5px 5px 5px;
+    background-color: white;
+}
+.comment_section img {
+    padding: 0 3px 3px 3px;
+}
+#comment_form {
+    background-color: white;
+}
+#comment_form textarea {
+    border-color: #0dcaf0;
+    width: 83%;
+    height: 35px;
+    border-radius: 5px;
+    color: black;
+    font-size: 14px;
+    margin: 3px 3px 3px 5px;
+}
+#comment_form input[type="submit"] {
+    background-color: #0dcaf0 !important;
+    font-family: 'Lobster', cursive;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    width: 15%;
+    height: 35px;
+    margin-top: 3px;
+    position: absolute;
+}
+.posted_by a {
+    color: #0d37f0;
+}
+.newsfeedPostOptions {
+    padding: 0px;
+    text-decoration: none;
+    color: #0d37f0;
+    border: none;
+}
+.user_details_left-right a {
+    color: #0d37f0;
+}
+#likes {
+    background-color: white !important;
+}
+.newsfeedPostOptions iframe {
+    background-color: white !important;
+    border: 0px;
+    height: 17px;
+    width: 120px;
+}
+.comment_like {
+    background-color: white;
+    border: none;
+    font-size: 14px;
+    color: #0d37f0;
+    padding: 0;
+    height: 0 auto;
+    width: 0 auto;
+    margin: 0;
+}
+.like_value {
+    display: inline;
+    font-size: 14px;
+}
+
+/* #mainNav {
+    z-index: 9999 !important;
+} */
+
+.profile_left {
+    top: -10px;
+    width: 17%;
+    max-width: 240px;
+    min-width: 130px;
+    height: 100vh;
+    float: left;
+    position: relative;
+    background-color: #0dcaf0;
+    border-right: 10px solid #66cadf;
+    color: black;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.profile_left img {
+    min-width: 80px;
+    width: 55%;
+    margin: 20px;
+    border: 5px solid #16a8c5;
+    border-radius: 100px;
+}
+.profile_info {
+    display: list-item;
+    list-style-type: none;
+    background-color: #16a8c5;
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+.profile_info p {
+    margin: 0 0 0 20px;
+    word-wrap: break-word;
+}
+.delete_button {
+    height: 22px;
+    width: 22px;
+    padding: 0 !important;
+    float: right;
+    border-radius: 4px !important;
+    right: -15px;
+    position: relative;
+}
+.profile_main_column {
+    min-width: 675px;
+    float: left;
+    width: 70%;
+    z-index: -1;
+}
+.profile_info_bottom {
+    margin: 10px 0 0 7px;
+}
+#message_textarea {
+    width: 70%;
+    margin-right: 8px;
+    border: 1px solid #16a8c5;
+    font-size: 12px;
+}
+#message_submit {
+    background-color: #0dcaf0;
+    font-family: 'Lobster', cursive !important;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    width: 15%;
+    height: px;
+    margin-top: 3px;
+    position: absolute;
+}
+.message {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    color: white;
+}
+.message#blue {
+    background-color: #1c43f0;
+    border-color: #0b2286;
+    float: right;
+    margin-bottom: 5px;
+}
+.message#green {
+    background-color: rgb(19, 141, 19);
+    border-color: #05522e;
+    float: left;
+    margin-bottom: 5px;
+}
+.loaded_messages {
+    height: 65%;
+    min-height: 300px;
+    max-height: 400px;
+    overflow: scroll;
+    margin-bottom: 10px;
+}
+.loaded_conversations {
+    max-height: 216px;
+    overflow: scroll;
+}
+.user_found_messages {
+    border-bottom: 1px solid grey;
+    padding: 8px 8px 10px 8px;
+}
+.user_found_messages:hover {
+    background-color: rgb(209, 201, 201);
+}
+.user_found_messages img {
+    height: 35px;
+    float: left;
+}
+#grey {
+    color: #5f5c5c;
+}
+.resultDisplay {
+    padding: 5px 5px 0 5px;
+    height: 65px;
+    border-bottom: 1px solid grey;
+}
+.resultDisplay a {
+    float: none;
+}
+.resultDisplay:hover {
+    background-color: rgb(209, 201, 201);
+    text-decoration: none;
+}
+.liveSearchProfilePic img {
+    height: 50px;
+    border-radius: 25px;
+    margin: 1px 12px 0 2px;
+    float: left;
+}
+.liveSearchText {
+    background-color: transparent;
+    color: #1c43f0;
+}
+.liveSearchText p {
+    margin-left: 10px;
+    font-size: 12px;
+}
+.tab-content {
+    margin-top: 25px;
+}
+.notification_badge {
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: white;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: red;
+    border-radius: 10px;
+    position: absolute;
+    left: 249px;
+    top: 7px;
+}
+.postedImage img {
+    max-height: 350px;
+    max-width: 100%;
+    display: block;
+    margin: 5px auto;
+}

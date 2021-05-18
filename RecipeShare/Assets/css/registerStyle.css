@@ -1,0 +1,72 @@
+form {
+    text-align: center;
+}
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #001d3d;
+}
+.wrapper {
+    background-image: url("../images/background/cooking.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    min-width: 950px;
+}
+.loginBox {
+    position: relative;
+    margin: 0 auto;
+    top: 7%;
+    width: 35%;
+    background-color: #fff;
+    border: 1px solid #EDEDED;
+    border-radius: 7px;
+    padding: 5px;
+    opacity: 0.95;
+}
+.loginHeader {
+    width: 100%;
+    height: 100%;
+    background-color: #cdb4db;
+    color: black;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-align: center;
+}
+.loginHeader h1 {
+    margin: 0;
+    color: #001d3d;
+    text-shadow: #5d7ea1 .5px .5px 0px;
+    font-family: 'Lobster', cursive;
+}
+input[type="submit"] {
+    background-color: #cdb4db;
+    border: 1px solid #cdb4db;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    margin: 5px 0 5px 0;
+    color: #001d3d;
+    font-family: 'Lobster', cursive;
+    font-size: 100%;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    border: 1px solid #e5e5e5;
+    margin-top: 5px;
+    width: 70%;
+    height: 35px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover {
+    border-color: #cdb4db;
+}
+#second {
+    display: none;
+}
